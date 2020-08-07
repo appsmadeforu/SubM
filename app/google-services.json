@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "729216404086",
+    "firebase_url": "https://subm-8e847.firebaseio.com",
+    "project_id": "subm-8e847",
+    "storage_bucket": "subm-8e847.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729216404086:android:dd5d434d00ec2409",
+        "android_client_info": {
+          "package_name": "com.example.sofiy.subm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729216404086-0n8e9i4dp2c80aje0677km64irofdsfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sofiy.subm",
+            "certificate_hash": "3f4c03cc3dd8e5656c4eeadd51b5a93fa76bb6ab"
+          }
+        },
+        {
+          "client_id": "729216404086-9v1d3t29s2pl0aoo47g9o2hm1aknbnqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlrHn0cJ3bz0DYtk4bZCsKzRe-5RZftCw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729216404086-9v1d3t29s2pl0aoo47g9o2hm1aknbnqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

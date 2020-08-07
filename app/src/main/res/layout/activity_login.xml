@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient_b"
+    >
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Submissions Manager"
+    android:textSize="40dp"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:layout_marginTop="10dp"
+    />
+
+<EditText
+    android:id="@+id/emailid"
+    android:layout_below="@+id/title"
+    android:layout_marginTop="20dp"
+    android:textColor="@color/colorBlack"
+    android:hint="Email Id"
+    android:textColorHint="#808080"
+    android:textSize="23dp"
+    android:inputType="textEmailAddress"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_height="wrap_content"
+    />
+
+    <EditText
+       android:id="@+id/password"
+        android:layout_below="@+id/emailid"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="#808080"
+        android:textSize="23dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="Login"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:background="@drawable/button_shape"
+        />
+    <RelativeLayout
+        android:id="@+id/OrLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:layout_height="35dp">
+        <View
+            android:id="@+id/view1"
+            android:layout_toLeftOf="@+id/ortext"
+            android:layout_marginTop="15dp"
+            android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack"
+            />
+        <TextView
+            android:id="@+id/ortext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or"
+            android:layout_marginLeft="20dp"
+            android:layout_centerInParent="true"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <View
+            android:layout_toRightOf="@+id/ortext"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_below="@+id/OrLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textCreateAcc"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you want to create a new account?"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_below="@+id/textCreateAcc"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:background="@drawable/button_shape"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
